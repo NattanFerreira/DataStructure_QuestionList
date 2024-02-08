@@ -1,0 +1,28 @@
+Questão 1 - 
+y = 4
+p = endereço y 
+x = 3
+
+Questão 2 - 
+int x, *p;
+x = 100;
+p = x;
+printf(“Valor de p = %p\tValor de *p = %d”, p, *p
+a) erro
+b) porque p não pode receber valores e sim endereços
+c) Não
+d)
+#include <stdio.h>
+int main(void) {
+    int x;
+    int *p;
+    x = 100;
+    p = &x;
+    printf("valor de p = %p\tValor de *p = %d", p, *p);
+    return 0;
+}
+e)sim
+
+3 -
+11 20 10 30
+
